@@ -511,7 +511,7 @@ def do_work(config, device_list):
                             log('[SIGNAL] 신호 전송: {}'.format(send_data))
                         mqtt_client.publish(ELFIN_TOPIC + '/send', bytes.fromhex(send_data['sendcmd']))
                         # await asyncio.sleep(0.01)
-                        if send_data['count'] < 5:
+                        if send_data['count'] < 300:
                             send_data['count'] = send_data['count'] + 1
                             QUEUE.append(send_data)
                         else:
