@@ -17,7 +17,7 @@
     "mqtt_server": "192.168.0.168",
     "mqtt_id": "ew11",
     "mqtt_password": "0987poiu",
-    "mqtt_TOPIC": "ew11",
+    "mqtt_TOPIC": "cwbs",
     "elfin_server": "192.168.0.32",
     "elfin_id": "ew11",
     "elfin_password": "0987poiu"
